@@ -29,32 +29,8 @@ Currently there are two example projects:
 - Angular `npm run example:angular`
 
 ## Example output
-```
-NOT BEING USED IN SOURCE (3)
-options.option1
-options.option2
-options.option3
+![image](https://user-images.githubusercontent.com/644550/184345809-b2ae7398-501a-40c8-90ef-e45ceb660d21.png)
 
-
-MISSING IN LOCALE FILES (3)
-
-home.vue:6 >>> missing in locale
-"t('user.name')
-
-home.vue:24 >>> missing in locale
-(t('logout-warning'))
-
-router.ts:13 >>> missing in locale
-pageTitleTranslationKey: 'pages.settings'
-
-
-KEYS MISSING IN nl.json (1)
-pages.home
-
-KEYS MISSING IN de.json (2)
-options.option2
-pages.home
-```
 
 ## Running the project
 In order to run i18n-cleaner you have to create a config file e.g. `i18n-cleaner.conf.json`
@@ -65,8 +41,14 @@ Use `node src/index.js i18n-cleaner.conf.json` to run the i18n-cleaner
 
 Or run one of the example projects:
 
-- VUE `npm run example:vue`
-- Angular `npm run example:angular`
+- VUE `npm run example:vue` which outputs:
+
+![image](https://user-images.githubusercontent.com/644550/184345833-58b5f47b-3720-4acb-8299-0c522acb1970.png)
+
+- Angular `npm run example:angular` which outputs:
+
+![image](https://user-images.githubusercontent.com/644550/184345868-ab51c319-b73e-4a05-8080-fbd21d6349af.png)
+
 
 ## Configuration file options
 
