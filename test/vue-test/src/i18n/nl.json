@@ -1,0 +1,11 @@
+{
+  "generic": "ok",
+  "options": {
+    "option1": "Een",
+    "option2": "Twee",
+    "option3": "Drie"
+  },
+  "test": {
+    "value": "waarde"
+  }
+}

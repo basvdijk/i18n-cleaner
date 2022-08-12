@@ -1,0 +1,13 @@
+{
+  "extensions": ["vue"],
+  "i18nFilters": [
+    "123",
+    "(\\ |\"|\\()t\\([\"'](.*)[\"'](.*)\\)",
+    "pageTitleTranslationKey:(.*)\\\""
+  ],
+  "locales": [
+    "/Users/bas/Development/usto/secret-ninjas/cardoo-app/src/i18n/nl.json"
+  ],
+  "localesFormat": "json",
+  "srcFolder": "/Users/bas/Development/usto/secret-ninjas/cardoo-app/src"
+}

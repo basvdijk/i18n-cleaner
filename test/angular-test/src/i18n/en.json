@@ -1,0 +1,18 @@
+{
+  "generic": "ok",
+  "options": {
+    "option1": "One",
+    "option2": "Two",
+    "option3": "Three"
+  },
+  "test": {
+    "value": "Interesting value"
+  },
+  "pages": {
+    "home": "Home"
+  },
+  "share": {
+    "title": "Share app",
+    "text": "Share your app"
+  }
+}

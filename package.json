@@ -1,0 +1,35 @@
+{
+  "name": "i18n-cleaner",
+  "version": "0.0.1",
+  "type": "module",
+  "author": {
+    "name": "Bas van Dijk",
+    "url": "https://usto.nl"
+  },
+  "contributors": [],
+  "description": "Checks for missing translations in your source code, and unused translations in your locale JSON files.",
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "npx nodemon src/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watchAll --coverage",
+    "example:vue": "cd test/vue-test && node ../../src/index.js i18n-cleaner.test.conf.json",
+    "example:angular": "cd test/angular-test && node ../../src/index.js i18n-cleaner.test.conf.json"
+  },
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "vue",
+    "angular"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.3.0",
+    "dree": "^3.3.7"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.18"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extensions": ["html", "ts"],
+  "i18nFilters": [
+    "{{((\\ |\\n)*)[^\\ ]*\\ \\|\\ translate(\\ |\\n)*}}",
+    "\\.instant\\('[^}]*\\}?\\)"
+  ],
+  "locales": ["./src/i18n/en.json"],
+  "localesFormat": "json",
+  "srcFolder": "./src"
+}
