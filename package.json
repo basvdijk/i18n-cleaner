@@ -21,6 +21,9 @@
     "example:vue": "cd test/vue-test && node ../../src/index.js i18n-cleaner.test.conf.json",
     "example:angular": "cd test/angular-test && node ../../src/index.js i18n-cleaner.test.conf.json"
   },
+  "bin": {
+    "i18n-cleaner": "src/index.js"
+  },
   "keywords": [
     "i18n",
     "vue-i18n",
